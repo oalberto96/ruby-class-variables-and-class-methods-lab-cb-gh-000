@@ -29,6 +29,8 @@ class Song
   end
 
   def artist=(artist)
-
+    @artist = artist
+    if artists[artist] == nil ?  :
+  end
 
 end
