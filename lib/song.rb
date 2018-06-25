@@ -32,6 +32,8 @@ class Song
     @artist = artist
     if artists[artist] == nil ?
       artists[artist] = 1
+    else
+      artists[artist] += 1
   end
 
 end
