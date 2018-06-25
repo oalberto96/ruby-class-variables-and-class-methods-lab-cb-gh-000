@@ -20,7 +20,7 @@ class Song
   end
 
   def self.artists
-    artists.keys
+    artists.keys.value
   end
 
   def self.genres
