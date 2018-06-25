@@ -28,4 +28,7 @@ class Song
   def self.genres_count
   end
 
+  def artist=(artist)
+
+
 end
