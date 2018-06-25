@@ -12,7 +12,7 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
-    self.artist = artist
+    artist = artist
     @@count += 1
 
   end
