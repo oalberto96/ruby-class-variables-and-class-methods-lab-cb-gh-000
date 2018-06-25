@@ -32,7 +32,6 @@ class Song
   end
 
   def artist=(artist)
-    binding.pry
     @artist = artist
     if artists[artist] == nil
       artists[artist] = 1
