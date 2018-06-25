@@ -20,6 +20,7 @@ class Song
   end
 
   def self.artists
+    artists.keys
   end
 
   def self.genres
