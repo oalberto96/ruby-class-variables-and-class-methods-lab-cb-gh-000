@@ -33,7 +33,7 @@ class Song
 
   def artist=(artist)
     @artist = artist
-    if artists[artist] == nil ?
+    if artists[artist] == nil
       artists[artist] = 1
     else
       artists[artist] += 1
